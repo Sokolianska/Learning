@@ -38,25 +38,50 @@
 // console.log(a)
 
 //OPERATORS
-let x = 10
-let y = 5
-console.log(x + y)
-console.log(x % y)
-console.log(++x)
-console.log(--y)
+// let x = 10
+// let y = 5
+// console.log(x + y)
+// console.log(x % y)
+// console.log(++x)
+// console.log(--y)
 
-console.log(x <= y)
+// console.log(x <= y)
 
-const isValidNumber = x>20||8>y
-console.log(isValidNumber)
+// const isValidNumber = x>20||8>y
+// console.log(isValidNumber)
 
-const isValid = false
-console.log(!isValid)
+// const isValid = false
+// console.log(!isValid)
 
-console.log(`Bruse` + ` Wayne`)
+// console.log(`Bruse ` + `Wayne`)
 
-const isEven = 10 % 2 === 0 ? true : false
-console.log(isEven)
+// const isEven = 10 % 2 === 0 ? true : false
+// console.log(isEven)
+
+// console.log(2 + `3`)
+// console.log(true+`3`)
+// console.log(`4` - `2`)
+// console.log(`Bruse ` - `Wayne`)
+// console.log(`5`-false)
+// console.log(`5` - null)
+// console.log(5 + undefined)
+
+
+// console.log(Number(`5`))
+// console.log(Number(``))
+// console.log(Number(false))
+// console.log(parseInt(`5`))
+// console.log(parseFloat(`3.14`))
+
+// console.log(String(500))
+// console.log(String(null))
+// console.log(String(undefined))
+// console.log((500).toString)
+console.log(Boolean(10))//null undefined
+
+
+
+
 
 
 
