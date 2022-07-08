@@ -77,14 +77,94 @@
 // console.log(String(null))
 // console.log(String(undefined))
 // console.log((500).toString)
-console.log(Boolean(10))//null undefined
+//console.log(Boolean(10))//null undefined
 
+// const var1=10 //null
+// const var2=`10`//undefined
 
+// console.log(var1==var2)
+// console.log(var1===var2)
 
+// const num = 0
 
+// if (num > 0) {
+//     console.log(`Number is positive`)
+// } else if (num < 0) {
+//     console.log(`Number is NOT positive`)
+// } else {
+//     console.log(`Number is 0`)
+// }
 
+// const color = '5'
+// switch (color) {
+//     case 'red':
+//         console.log('Color is red')
+//         break
+//     case 'blue':
+//         console.log('Color is blue')
+//          break
+//     case 'green':
+//         console.log('Color is green')
+//     default:
+//         console.log('0')
+// }
 
+// for (let i = 1; i <= 2; i++){
+//     console.log('Iteration number '+i)
+// }
 
+// let i = 1
+// while (i<=5) {
+//     console.log('Iteration number ' + i)
+//     i++
+// }
+// let i = 6
+// do {
+//     console.log('Iteration number ' + i)
+//     i++
+// } while (i <= 5)
+
+// const numArray = [1, 2, 3, 4, 5]
+// for (const num of numArray) {
+//     console.log('Iteration number '+num)
+// }
+
+// function greet(username) {
+//     console.log('Good morning '+username)
+// }
+// greet('Bruse')
+// greet('Klark')
+// greet('Diana')
+
+// function add(a, b) {
+//     return a+b
+// }
+// const sum = add(35, 10)
+// console.log(sum)
+
+// function add(a, b) {
+//     return a+b
+// }
+// const arrowSum = (a, b) => a + b
+// const addFive = (num) => num + 5
+
+// const sum = add(35, 10)
+// console.log(sum)
+
+const myNum=100
+
+if (true) {
+    const myName = 'Vishwas'
+    console.log(myName)
+    console.log(myNum)
+}
+
+function testFn() {
+    const myName='Batman'
+    console.log(myName)
+    console.log(myNum)
+}
+testFn()
 
 
 
