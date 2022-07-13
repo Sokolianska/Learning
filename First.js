@@ -151,20 +151,20 @@
 // const sum = add(35, 10)
 // console.log(sum)
 
-const myNum=100
+// const myNum=100
 
-if (true) {
-    const myName = 'Vishwas'
-    console.log(myName)
-    console.log(myNum)
-}
+// if (true) {
+//     const myName = 'Vishwas'
+//     console.log(myName)
+//     console.log(myNum)
+// }
 
-function testFn() {
-    const myName='Batman'
-    console.log(myName)
-    console.log(myNum)
-}
-testFn()
+// function testFn() {
+//     const myName='Batman'
+//     console.log(myName)
+//     console.log(myNum)
+// }
+// testFn()
 
 
 
