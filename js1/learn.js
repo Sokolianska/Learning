@@ -1,4 +1,4 @@
-// function isWindy(speed) {
+// const isWindy =speed=>{
 //   if (speed > 5) {
 //     console.log("It is windy");
 //   } else {
@@ -9,7 +9,7 @@
 // isWindy(10);
 
 
-// function fullName(firstName, lastName) {
+// const fullName=(firstName, lastName) =>{
 //   console.log(firstName + " " + lastName);
 // }
 // let firstName = "Olha";
@@ -17,18 +17,16 @@
 // fullName(firstName, lastName);
 
 
-// function sayFact() {
-//   let name = prompt("What's your name?");
+// const sayFact=()=> {
+//   let name = window.prompt("What's your name?");
 //   if (name === "Olha") {
 //     console.log("Your name comes from the Scandinavia -> Helga");
 //   }
 // }
 // sayFact();
 
-// function add(x, y) {
+// const add=(x, y) => x - y;
 //     // return x + y;
-//     return x - y;
-// }
 // let result = add(3, 4);
 // let result2 = add(result, 5);
 // console.log(result);
@@ -48,8 +46,8 @@
 
 
 // let fruits = ['apples', 'oranges', 'bananas'];
-// fruits.forEach(function(fruit) {
-//   console.log("I have " + fruit + " in my shopping bag");
+// fruits.forEach((fruit,i) =>{
+//   console.log((i+1)+" I have " + fruit + " in my shopping bag");
 // });
 
 // for (let i = 0; i < 10; i++) {
@@ -57,3 +55,9 @@
 // }
 
 
+// let fruits = ['apples', 'oranges', 'bananas'];
+// const modifiedArray=fruits.map((fruit,i) =>{
+//   if(fruit==="apples") return "Hello World"
+//   else return fruit
+// });
+// console.log(modifiedArray);
