@@ -1,10 +1,10 @@
-//const getSum = (a, b) => a + b;
-//console.log(getSum)
+// const getSum = (a, b) => a + b;
+// console.log(getSum)
 
-//let age = 25
-//console.log(age)
+// let age = 25
+// console.log(age)
 
-//DATA TYPES
+// DATA TYPES
 // const name = `Vishwas`
 // const language = 'JavaScript'
 // const channel = `Codevolution`
@@ -37,7 +37,7 @@
 // a = true
 // console.log(a)
 
-//OPERATORS
+// OPERATORS
 // let x = 10
 // let y = 5
 // console.log(x + y)
@@ -77,7 +77,7 @@
 // console.log(String(null))
 // console.log(String(undefined))
 // console.log((500).toString)
-//console.log(Boolean(10))//null undefined
+// console.log(Boolean(10))//null undefined
 
 // const var1=10 //null
 // const var2=`10`//undefined
